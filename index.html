@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Github API Autocomplete</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <div class="container__search">
+          <input
+            class="container__search__input"
+            type="text"
+            name="repo"
+            placeholder="Repository name"
+          />
+          <div class="container__search__autocomplete">
+            <ul class="container__search__autocomplete__list"></ul>
+          </div>
+        </div>
+        <div class="container__search__result">
+          <ul class="container__search__result__list"></ul>
+        </div>
+      </div>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>
